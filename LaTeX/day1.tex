@@ -1,0 +1,125 @@
+\documentclass[12pt]{article}
+\usepackage{template}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{ulem}
+\usepackage{soul}
+\usepackage{comment}
+\usepackage{graphicx} % needed for \includegraphics
+
+% Set Libertinus Serif font if using XeLaTeX/LuaLaTeX
+\usepackage{iftex}
+\ifXeTeX
+    \usepackage{fontspec}
+    \setmainfont{Libertinus Serif}
+\else\ifLuaTeX
+    \usepackage{fontspec}
+    \setmainfont{Libertinus Serif}
+\fi\fi
+
+% Cover page information
+\coverTitle{Day 1: Introduction to Robots and Robotics}
+\coverAuthor{PRASAMSHA ADHIKARI}
+\coverRollno{PUR080BCT060}
+\coverTo{BIPIN SHRESTHA}
+\coverLogo{robo.png}
+\coverDate{2025/06/30}
+
+% Code listing setup
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstset{style=mystyle}
+
+\begin{document}
+
+% Generate cover page
+\makecover
+
+% Setup main document formatting
+\setupmain
+
+%\section{Heading}
+%\subsection{Second Heading}
+
+%This is regular text.
+
+%\begin{lstlisting}[language=C++]
+%# This is a code block.
+%print("Hello")
+%\end{lstlisting}
+
+%\subsubsection{Third Heading}
+
+%\begin{itemize}
+%    \item This is an unnumbered list.
+%    \item This is also an unnumbered list.
+%\end{itemize}
+
+\begin{comment}
+\begin{enumerate}
+    \item This is a numbered list.
+    \item This is also a numbered list.
+\end{enumerate}
+\end{comment}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.2\textwidth]{logo.png} % Reduced from 0.5 to 0.2
+    \caption{TU IOE}
+\end{figure}
+
+\begin{comment}
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline
+        One & Plan \\
+        \hline
+        Two & Draft \\
+        \hline
+        Three & Document \\
+        \hline
+    \end{tabular}
+    \caption{Sample Table}
+\end{table}
+
+You can do almost anything with this typesetting system.
+
+\textbf{Bold}\\
+\textit{Italics}\\
+\underline{Underline}\\
+\sout{Strike}
+\end{comment}
+
+\vspace{2em}
+{\huge \textbf{What We Learnt:}}
+\vspace{1em}
+\begin{enumerate}
+    \item Introduction to Robots and Robotics
+    \item History of Robots and their evolution
+    \item Types of Robots (Autonomous, Humanoid, Augmented and Teleoperated)
+\end{enumerate}
+\begin{comment}
+\begin{center}
+    \underline{\sout{\textbf{\textit{Everything all at once}}}} Center Aligned
+\end{center}
+\end{comment}
+\end{document}
