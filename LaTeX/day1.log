@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.30)  30 JUN 2025 09:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.30)  30 JUN 2025 15:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**e:/Desktop/technomorph/LaTeX/day1.tex
-(e:/Desktop/technomorph/LaTeX/day1.tex
+**c:/Users/Nts/technomorph/LaTeX/day1.tex
+(c:/Users/Nts/technomorph/LaTeX/day1.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-06-09>
 (E:\MiKTeX\tex/latex/base\article.cls
@@ -419,9 +419,9 @@ Package pdftex.def Info: logo.png  used on input line 85.
 (pdftex.def)             Requested size: 91.04742pt x 107.65259pt.
  Excluding 'comment' comment.
 LaTeX Font Info:    Font shape `OT1/LibertinusSerif-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 113.
+(Font)              scaled to size 24.88pt on input line 115.
 LaTeX Font Info:    Font shape `OT1/LibertinusSerif-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 113.
+(Font)              scaled to size 24.88pt on input line 115.
  Excluding 'comment' comment.
 
 [1
@@ -434,14 +434,14 @@ L3 programming layer <2025-06-09>
  ) 
 Here is how much of TeX's memory you used:
  6545 strings out of 468221
- 101338 string characters out of 5449732
- 513811 words of memory out of 5000000
+ 101354 string characters out of 5449732
+ 514811 words of memory out of 5000000
  34979 multiletter control sequences out of 15000+600000
  640118 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 97i,6n,101p,276b,280s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 97i,6n,101p,322b,280s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <E:/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSerif-Bold.pfb><E:/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSerif-Regular.pfb>
-Output written on day1.pdf (2 pages, 424152 bytes).
+Output written on day1.pdf (2 pages, 430249 bytes).
 PDF statistics:
  30 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
